@@ -1,4 +1,4 @@
-name: Update Customer 763 Feed
+name: Update Arena Trailers Feed
 
 on:
   workflow_dispatch:
@@ -16,7 +16,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
 
-      - name: Download Datalink XML
+      - name: Download Arena feed with retry
         run: |
           python - <<'PY'
           from urllib.request import Request, urlopen
@@ -25,7 +25,7 @@ jobs:
           import time
 
           url = "https://api.datalink.ai/api/inventories-export/364?customerId=763&type=xml&refresh=auto"
-          output = Path("customer-763.xml")
+          output = Path("arena-trailers.xml")
 
           for attempt in range(1, 11):
               print(f"Attempt {attempt} of 10...")
@@ -42,19 +42,58 @@ jobs:
                   root = ET.fromstring(data)
 
                   if root.tag.lower() == "error":
-                      message = (root.text or "").strip()
-                      print("Datalink says:", message)
+                      print("Datalink says:", (root.text or "").strip())
 
                   elif root.find(".//dealerid") is None:
-                      print("Feed is not ready yet: dealer ID not found.")
+                      print("Feed not ready: dealer ID not found.")
 
                   elif root.find(".//inventoryitem") is None:
-                      print("Feed is not ready yet: inventory items not found.")
+                      print("Feed not ready: inventory items not found.")
 
                   else:
-                      output.write_bytes(data)
-                      print("Valid inventory feed downloaded successfully.")
+                      dealer_id = (root.findtext(".//dealerid") or "").strip()
+                      location_id = (root.findtext(".//locationid") or "").strip()
+
+                      print("Datalink dealer ID:", dealer_id)
+                      print("Datalink location ID:", location_id)
+
+                      if dealer_id not in {"212", "16"}:
+                          raise SystemExit(
+                              f"ERROR: Unexpected dealer ID: {dealer_id}"
+                          )
+
+                      if location_id not in {"212", "21"}:
+                          raise SystemExit(
+                              f"ERROR: Unexpected location ID: {location_id}"
+                          )
+
+                      # Work with the raw XML text so description formatting,
+                      # CDATA and &#13; line breaks are preserved.
+                      text = data.decode("utf-8")
+
+                      if dealer_id == "212":
+                          text = text.replace(
+                              "<dealerid>212</dealerid>",
+                              "<dealerid>16</dealerid>",
+                              1
+                          )
+
+                      if location_id == "212":
+                          text = text.replace(
+                              "<locationid>212</locationid>",
+                              "<locationid>21</locationid>",
+                              1
+                          )
+
+                      output.write_text(text, encoding="utf-8")
+
+                      print("Valid Arena inventory feed downloaded.")
+                      print("HTT dealer ID set to 16.")
+                      print("HTT location ID set to 21.")
                       break
+
+              except SystemExit:
+                  raise
 
               except Exception as e:
                   print("Download attempt failed:", e)
@@ -69,27 +108,32 @@ jobs:
               )
           PY
 
-      - name: Validate XML and stock numbers
+      - name: Validate final Arena XML
         run: |
           python - <<'PY'
           import xml.etree.ElementTree as ET
           from collections import Counter
 
-          path = "customer-763.xml"
+          path = "arena-trailers.xml"
+
           tree = ET.parse(path)
           root = tree.getroot()
 
-          print("XML validated successfully")
-
-          dealer_id = root.findtext(".//dealerid")
-          dealer_name = root.findtext(".//dealername")
-          location_id = root.findtext(".//locationid")
-          location_name = root.findtext(".//locationname")
+          dealer_id = (root.findtext(".//dealerid") or "").strip()
+          dealer_name = (root.findtext(".//dealername") or "").strip()
+          location_id = (root.findtext(".//locationid") or "").strip()
+          location_name = (root.findtext(".//locationname") or "").strip()
 
           print("Dealer ID:", dealer_id)
           print("Dealer Name:", dealer_name)
           print("Location ID:", location_id)
           print("Location Name:", location_name)
+
+          if dealer_id != "16":
+              raise SystemExit("ERROR: Final dealer ID is not 16.")
+
+          if location_id != "21":
+              raise SystemExit("ERROR: Final location ID is not 21.")
 
           stocknumbers = []
 
@@ -99,29 +143,34 @@ jobs:
                   stocknumbers.append(value)
 
           counts = Counter(stocknumbers)
-          duplicates = [x for x, count in counts.items() if count > 1]
+          duplicates = [
+              stock for stock, count in counts.items()
+              if count > 1
+          ]
 
           print("Stock numbers found:", len(stocknumbers))
           print("Unique stock numbers:", len(counts))
 
           if duplicates:
               print("WARNING - duplicate stock numbers:")
-              for x in duplicates:
-                  print(x)
+              for stock in duplicates:
+                  print(stock)
           else:
               print("No duplicate stock numbers found.")
+
+          print("Arena XML validated successfully.")
           PY
 
-      - name: Save updated feed
+      - name: Save Arena feed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add customer-763.xml
+          git add arena-trailers.xml
 
           if git diff --cached --quiet; then
-            echo "Feed has not changed."
+            echo "Arena feed has not changed."
           else
-            git commit -m "Update Customer 763 feed"
+            git commit -m "Update Arena Trailers feed"
             git push
           fi
