@@ -1,0 +1,47 @@
+name: Update Imperial Trailer Sales Feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Download Trailer Funnel XML
+        run: |
+          curl --fail --location --silent --show-error \
+            --output imperial-trailer-sales.xml \
+            'https://api.datalink.ai/api/inventories-export/364?customerId=176&type=xml&refresh=auto'
+
+      - name: Validate XML
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+
+          path = "imperial-trailer-sales.xml"
+          ET.parse(path)
+          print("XML validated successfully")
+          PY
+
+      - name: Save updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add imperial-trailer-sales.xml
+
+          if git diff --cached --quiet; then
+            echo "Feed has not changed."
+          else
+            git commit -m "Update Imperial Trailer Sales feed"
+            git push
+          fi
