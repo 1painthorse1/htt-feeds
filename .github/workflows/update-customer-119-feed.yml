@@ -1,0 +1,71 @@
+name: Update Customer 119 Feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Download Datalink XML
+        run: |
+          curl --fail --location --silent --show-error \
+            --output customer-119.xml \
+            'https://api.datalink.ai/api/inventories-export/364?customerId=119&type=xml&refresh=auto'
+
+      - name: Validate XML
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          from collections import Counter
+
+          path = "customer-119.xml"
+          tree = ET.parse(path)
+          root = tree.getroot()
+
+          print("XML validated successfully")
+          print("Root element:", root.tag)
+
+          stocknumbers = []
+
+          for elem in root.iter("stocknumber"):
+              value = (elem.text or "").strip()
+              if value:
+                  stocknumbers.append(value)
+
+          counts = Counter(stocknumbers)
+          duplicates = [x for x, count in counts.items() if count > 1]
+
+          print("Stock numbers found:", len(stocknumbers))
+          print("Unique stock numbers:", len(counts))
+
+          if duplicates:
+              print("WARNING - duplicate stock numbers:")
+              for x in duplicates:
+                  print(x)
+          else:
+              print("No duplicate stock numbers found.")
+          PY
+
+      - name: Save updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add customer-119.xml
+
+          if git diff --cached --quiet; then
+            echo "Feed has not changed."
+          else
+            git commit -m "Update Customer 119 feed"
+            git push
+          fi
