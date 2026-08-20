@@ -18,9 +18,56 @@ jobs:
 
       - name: Download Datalink XML
         run: |
-          curl --fail --location --silent --show-error \
-            --output customer-763.xml \
-            'https://api.datalink.ai/api/inventories-export/364?customerId=763&type=xml&refresh=auto'
+          python - <<'PY'
+          from urllib.request import Request, urlopen
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          import time
+
+          url = "https://api.datalink.ai/api/inventories-export/364?customerId=763&type=xml&refresh=auto"
+          output = Path("customer-763.xml")
+
+          for attempt in range(1, 11):
+              print(f"Attempt {attempt} of 10...")
+
+              try:
+                  request = Request(
+                      url,
+                      headers={"User-Agent": "Mozilla/5.0"}
+                  )
+
+                  with urlopen(request, timeout=60) as response:
+                      data = response.read()
+
+                  root = ET.fromstring(data)
+
+                  if root.tag.lower() == "error":
+                      message = (root.text or "").strip()
+                      print("Datalink says:", message)
+
+                  elif root.find(".//dealerid") is None:
+                      print("Feed is not ready yet: dealer ID not found.")
+
+                  elif root.find(".//inventoryitem") is None:
+                      print("Feed is not ready yet: inventory items not found.")
+
+                  else:
+                      output.write_bytes(data)
+                      print("Valid inventory feed downloaded successfully.")
+                      break
+
+              except Exception as e:
+                  print("Download attempt failed:", e)
+
+              if attempt < 10:
+                  print("Waiting 30 seconds before trying again...")
+                  time.sleep(30)
+
+          else:
+              raise SystemExit(
+                  "ERROR: Datalink did not return a completed inventory feed after 10 attempts."
+              )
+          PY
 
       - name: Validate XML and stock numbers
         run: |
@@ -33,7 +80,6 @@ jobs:
           root = tree.getroot()
 
           print("XML validated successfully")
-          print("Root element:", root.tag)
 
           dealer_id = root.findtext(".//dealerid")
           dealer_name = root.findtext(".//dealername")
