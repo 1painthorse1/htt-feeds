@@ -57,12 +57,12 @@ jobs:
                       print("Datalink dealer ID:", dealer_id)
                       print("Datalink location ID:", location_id)
 
-                      if dealer_id not in {"212", "16"}:
+                      if dealer_id not in {"21", "16"}:
                           raise SystemExit(
                               f"ERROR: Unexpected dealer ID: {dealer_id}"
                           )
 
-                      if location_id not in {"212", "21"}:
+                      if location_id != "21":
                           raise SystemExit(
                               f"ERROR: Unexpected location ID: {location_id}"
                           )
@@ -71,17 +71,10 @@ jobs:
                       # CDATA and &#13; line breaks are preserved.
                       text = data.decode("utf-8")
 
-                      if dealer_id == "212":
+                      if dealer_id == "21":
                           text = text.replace(
-                              "<dealerid>212</dealerid>",
+                              "<dealerid>21</dealerid>",
                               "<dealerid>16</dealerid>",
-                              1
-                          )
-
-                      if location_id == "212":
-                          text = text.replace(
-                              "<locationid>212</locationid>",
-                              "<locationid>21</locationid>",
                               1
                           )
 
