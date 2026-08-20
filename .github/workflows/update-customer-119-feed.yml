@@ -1,4 +1,4 @@
-name: Update Customer 119 Feed
+name: Update Open Range Trailer Sales Feed
 
 on:
   workflow_dispatch:
@@ -19,21 +19,48 @@ jobs:
       - name: Download Datalink XML
         run: |
           curl --fail --location --silent --show-error \
-            --output customer-119.xml \
+            --output open-range-trailer-sales.xml \
             'https://api.datalink.ai/api/inventories-export/364?customerId=119&type=xml&refresh=auto'
 
-      - name: Validate XML
+      - name: Add HTT location ID
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("open-range-trailer-sales.xml")
+          text = path.read_text(encoding="utf-8")
+
+          if "<dealerid>875</dealerid>" not in text:
+              raise SystemExit("ERROR: Expected dealer ID 875 was not found.")
+
+          text, replacements = re.subn(
+              r"<locationid\s*/>|<locationid>\s*</locationid>",
+              "<locationid>30119</locationid>",
+              text,
+              count=1
+          )
+
+          if replacements != 1:
+              raise SystemExit("ERROR: Could not find blank location ID.")
+
+          path.write_text(text, encoding="utf-8")
+
+          print("Dealer ID confirmed: 875")
+          print("Location ID inserted: 30119")
+          PY
+
+      - name: Validate XML and stock numbers
         run: |
           python - <<'PY'
           import xml.etree.ElementTree as ET
           from collections import Counter
 
-          path = "customer-119.xml"
+          path = "open-range-trailer-sales.xml"
           tree = ET.parse(path)
           root = tree.getroot()
 
           print("XML validated successfully")
-          print("Root element:", root.tag)
 
           stocknumbers = []
 
@@ -61,11 +88,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add customer-119.xml
+          git add open-range-trailer-sales.xml
 
           if git diff --cached --quiet; then
             echo "Feed has not changed."
           else
-            git commit -m "Update Customer 119 feed"
+            git commit -m "Update Open Range Trailer Sales feed"
             git push
           fi
