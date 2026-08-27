@@ -1,3 +1,22 @@
+name: Update Congelosi Trailer Sales Feed
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
       - name: Download Trailer Funnel XML
         run: |
           URL='https://api.datalink.ai/api/inventories-export/364?customerId=1763&type=xml&refresh=auto'
@@ -31,11 +50,16 @@
           print("Locations found:", len(locations))
           print("Inventory items found:", len(inventory))
 
-          if root.tag == "feedimport" and dealers and locations and inventory:
-              print("Complete Trailer Funnel feed received.")
+          if (
+              root.tag == "feedimport"
+              and len(dealers) == 1
+              and len(locations) == 1
+              and len(inventory) > 0
+          ):
+              print("Complete Congelosi feed received.")
               sys.exit(0)
 
-          print("Feed is incomplete. Will retry.")
+          print("Feed incomplete. Retrying.")
           sys.exit(1)
           PY
               then
@@ -45,9 +69,93 @@
               fi
             fi
 
-            echo "Waiting 15 seconds before trying again..."
+            echo "Waiting 15 seconds before retry..."
             sleep 15
           done
 
           echo "ERROR: Complete Congelosi feed was not received after 5 attempts."
           exit 1
+
+      - name: Apply HTT dealer and location IDs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("congelosi-trailer-sales.xml")
+          text = path.read_text(encoding="utf-8")
+
+          text, dealer_count = re.subn(
+              r"<dealerid\b[^>]*>.*?</dealerid>|<dealerid\b[^>]*/>",
+              "<dealerid>149</dealerid>",
+              text,
+              count=1,
+              flags=re.IGNORECASE | re.DOTALL
+          )
+
+          text, location_count = re.subn(
+              r"<locationid\b[^>]*>.*?</locationid>|<locationid\b[^>]*/>",
+              "<locationid>355</locationid>",
+              text,
+              count=1,
+              flags=re.IGNORECASE | re.DOTALL
+          )
+
+          if dealer_count != 1:
+              raise SystemExit("ERROR: Could not update dealer ID.")
+
+          if location_count != 1:
+              raise SystemExit("ERROR: Could not update location ID.")
+
+          path.write_text(text, encoding="utf-8")
+
+          print("HTT dealer ID set to 149")
+          print("HTT location ID set to 355")
+          PY
+
+      - name: Validate final HTT feed
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+
+          path = "congelosi-trailer-sales.xml"
+
+          tree = ET.parse(path)
+          root = tree.getroot()
+
+          dealerid = root.find(".//dealerid")
+          locationid = root.find(".//locationid")
+          inventory = list(root.iter("inventoryitem"))
+
+          dealer_value = (dealerid.text or "").strip() if dealerid is not None else ""
+          location_value = (locationid.text or "").strip() if locationid is not None else ""
+
+          print("Dealer ID:", dealer_value)
+          print("Location ID:", location_value)
+          print("Inventory items:", len(inventory))
+
+          if dealer_value != "149":
+              raise SystemExit("ERROR: Dealer ID is incorrect.")
+
+          if location_value != "355":
+              raise SystemExit("ERROR: Location ID is incorrect.")
+
+          if len(inventory) == 0:
+              raise SystemExit("ERROR: Feed contains zero inventory items.")
+
+          print("Congelosi HTT feed validated successfully.")
+          PY
+
+      - name: Save updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add congelosi-trailer-sales.xml
+
+          if git diff --cached --quiet; then
+            echo "Feed has not changed."
+          else
+            git commit -m "Update Congelosi Trailer Sales feed"
+            git push
+          fi
