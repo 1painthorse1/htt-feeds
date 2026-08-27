@@ -16,50 +16,54 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
 
-      - name: Download Datalink XML
-        run: |
-          curl --fail --location --silent --show-error \
-            --retry 4 \
-            --retry-delay 10 \
-            --retry-all-errors \
-            --output open-range-trailer-sales.xml \
-            'https://api.datalink.ai/api/inventories-export/364?customerId=119&type=xml&refresh=auto'
-
       - name: Add HTT location ID
         run: |
           python - <<'PY'
-          from pathlib import Path
-          import re
+          import xml.etree.ElementTree as ET
 
-          path = Path("open-range-trailer-sales.xml")
-          text = path.read_text(encoding="utf-8")
+          path = "open-range-trailer-sales.xml"
 
-          if "<dealerid>875</dealerid>" not in text:
+          tree = ET.parse(path)
+          root = tree.getroot()
+
+          dealerids = [
+              (elem.text or "").strip()
+              for elem in root.iter("dealerid")
+          ]
+
+          if "875" not in dealerids:
               raise SystemExit("ERROR: Expected dealer ID 875 was not found.")
 
-          if "<locationid>30119</locationid>" in text:
-              print("Dealer ID confirmed: 875")
-              print("Location ID already correct: 30119")
+          locations = list(root.iter("location"))
 
-          else:
-              text, replacements = re.subn(
-                  r"<locationid\s*/>|<locationid>\s*</locationid>",
-                  "<locationid>30119</locationid>",
-                  text,
-                  count=1
-              )
+          if not locations:
+              raise SystemExit("ERROR: No locations found in feed.")
 
-              if replacements != 1:
-                  raise SystemExit(
-                      "ERROR: Location ID was neither blank nor already 30119."
-                  )
+          changed = 0
 
-              path.write_text(text, encoding="utf-8")
+          for location in locations:
+              locationid = location.find("locationid")
 
-              print("Dealer ID confirmed: 875")
-              print("Location ID inserted: 30119")
+              if locationid is None:
+                  locationid = ET.SubElement(location, "locationid")
+
+              current = (locationid.text or "").strip()
+
+              if current != "30119":
+                  locationid.text = "30119"
+                  changed += 1
+
+          tree.write(
+              path,
+              encoding="utf-8",
+              xml_declaration=True
+          )
+
+          print("Dealer ID confirmed: 875")
+          print("Locations found:", len(locations))
+          print("Locations changed:", changed)
+          print("All Open Range locations assigned HTT location ID 30119")
           PY
-
           
       - name: Validate XML and stock numbers
         run: |
