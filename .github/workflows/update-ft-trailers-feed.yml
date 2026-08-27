@@ -1,0 +1,145 @@
+name: Update FT Trailers Feed
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '7 5 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install Python requirements
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests
+
+      - name: Download Trailer Ops and build HTT XML
+        run: |
+          python fttrailers_to_htt_xml.py
+
+      - name: Validate FT Trailers XML
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          path = Path("ft_trailers_htt_feed.xml")
+
+          if not path.exists():
+              raise SystemExit("ERROR: FT Trailers XML file was not created.")
+
+          tree = ET.parse(path)
+          root = tree.getroot()
+
+          if root.tag != "feedimport":
+              raise SystemExit(
+                  f"ERROR: Unexpected root element: {root.tag}"
+              )
+
+          dealerid = root.find(".//dealerid")
+          locationid = root.find(".//locationid")
+          inventory = list(root.iter("inventoryitem"))
+
+          dealer_value = (
+              (dealerid.text or "").strip()
+              if dealerid is not None
+              else ""
+          )
+
+          location_value = (
+              (locationid.text or "").strip()
+              if locationid is not None
+              else ""
+          )
+
+          print("Dealer ID:", dealer_value)
+          print("Location ID:", location_value)
+          print("Inventory items:", len(inventory))
+
+          if dealer_value != "880":
+              raise SystemExit(
+                  f"ERROR: Expected dealer ID 880, found {dealer_value!r}"
+              )
+
+          if location_value != "31201":
+              raise SystemExit(
+                  f"ERROR: Expected location ID 31201, found {location_value!r}"
+              )
+
+          if len(inventory) == 0:
+              raise SystemExit(
+                  "ERROR: Feed contains zero inventory items. "
+                  "Existing GitHub feed will NOT be replaced."
+              )
+
+          stocks = []
+
+          for item in inventory:
+              stock = item.find("stocknumber")
+
+              value = (
+                  (stock.text or "").strip()
+                  if stock is not None
+                  else ""
+              )
+
+              if not value:
+                  raise SystemExit(
+                      "ERROR: Inventory item found without a stock number."
+                  )
+
+              stocks.append(value)
+
+          if len(stocks) != len(set(stocks)):
+              raise SystemExit(
+                  "ERROR: Duplicate stock numbers found in generated feed."
+              )
+
+          units_with_images = 0
+
+          for item in inventory:
+              images = item.find("images")
+
+              if images is not None and len(list(images)) > 0:
+                  units_with_images += 1
+
+          print("Units with images:", units_with_images)
+
+          if units_with_images == 0:
+              raise SystemExit(
+                  "ERROR: No inventory items contain images."
+              )
+
+          print("FT Trailers feed validated successfully.")
+          PY
+
+      - name: Publish FT Trailers feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add ft_trailers_htt_feed.xml
+
+          if git diff --cached --quiet; then
+            echo "FT Trailers feed has not changed."
+          else
+            git commit -m "Update FT Trailers feed"
+
+            git pull --rebase origin main
+
+            git push
+          fi
