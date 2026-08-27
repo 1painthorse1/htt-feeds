@@ -1,0 +1,149 @@
+name: Update Congelosi Trailer Sales Feed
+
+on:
+  workflow_dispatch:
+
+  schedule:
+      - cron: '0 5 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Download Trailer Funnel XML
+        run: |
+          curl --fail --location --silent --show-error \
+            --retry 4 \
+            --retry-delay 10 \
+            --retry-all-errors \
+            --output congelosi-trailer-sales.xml \
+            'https://api.datalink.ai/api/inventories-export/364?customerId=1763&type=xml&refresh=auto'
+
+      - name: Check source feed
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+
+          path = "congelosi-trailer-sales.xml"
+
+          tree = ET.parse(path)
+          root = tree.getroot()
+
+          dealers = list(root.iter("dealer"))
+          locations = list(root.iter("location"))
+          inventory = list(root.iter("inventoryitem"))
+
+          print("Dealers found:", len(dealers))
+          print("Locations found:", len(locations))
+          print("Inventory items found:", len(inventory))
+
+          if len(dealers) != 1:
+              raise SystemExit(
+                  f"ERROR: Expected 1 dealer, found {len(dealers)}"
+              )
+
+          if len(locations) != 1:
+              raise SystemExit(
+                  f"ERROR: Expected 1 Congelosi location, found {len(locations)}"
+              )
+
+          if len(inventory) == 0:
+              raise SystemExit(
+                  "ERROR: Feed contains 0 inventory items. Feed will NOT be published."
+              )
+          PY
+
+      - name: Apply HTT dealer and location IDs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("congelosi-trailer-sales.xml")
+          text = path.read_text(encoding="utf-8")
+
+          def replace_tag(text, tag, value):
+              pattern = rf"<{tag}\b[^>]*>.*?</{tag}>|<{tag}\b[^>]*/>"
+
+              new_text, count = re.subn(
+                  pattern,
+                  f"<{tag}>{value}</{tag}>",
+                  text,
+                  count=1,
+                  flags=re.IGNORECASE | re.DOTALL
+              )
+
+              if count != 1:
+                  raise SystemExit(
+                      f"ERROR: Could not find exactly one {tag} to update."
+                  )
+
+              return new_text
+
+          text = replace_tag(text, "dealerid", "149")
+          text = replace_tag(text, "locationid", "355")
+
+          path.write_text(text, encoding="utf-8")
+
+          print("HTT dealer ID set to 149")
+          print("HTT location ID set to 355")
+          PY
+
+      - name: Validate HTT XML
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+
+          path = "congelosi-trailer-sales.xml"
+
+          tree = ET.parse(path)
+          root = tree.getroot()
+
+          dealerid = root.find(".//dealerid")
+          locationid = root.find(".//locationid")
+          inventory = list(root.iter("inventoryitem"))
+
+          dealer_value = (dealerid.text or "").strip() if dealerid is not None else ""
+          location_value = (locationid.text or "").strip() if locationid is not None else ""
+
+          if dealer_value != "149":
+              raise SystemExit(
+                  f"ERROR: Dealer ID is {dealer_value!r}, expected '149'"
+              )
+
+          if location_value != "355":
+              raise SystemExit(
+                  f"ERROR: Location ID is {location_value!r}, expected '355'"
+              )
+
+          if not inventory:
+              raise SystemExit(
+                  "ERROR: Feed contains no inventory."
+              )
+
+          print("XML validated successfully")
+          print("Dealer ID:", dealer_value)
+          print("Location ID:", location_value)
+          print("Inventory items:", len(inventory))
+          PY
+
+      - name: Save updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add congelosi-trailer-sales.xml
+
+          if git diff --cached --quiet; then
+            echo "Feed has not changed."
+          else
+            git commit -m "Update Congelosi Trailer Sales feed"
+            git push
+          fi
