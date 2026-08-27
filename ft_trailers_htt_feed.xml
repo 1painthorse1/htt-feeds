@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feedimport>
+  <dealer>
+    <dealerid>880</dealerid>
+    <dealername>FT Trailers</dealername>
+    <location>
+      <locationid>31201</locationid>
+      <locationname>Palmyra</locationname>
+      <locationaddress>5864 Highway 24</locationaddress>
+      <locationcity>Palmyra</locationcity>
+      <locationstate>MO</locationstate>
+      <locationzip>63461</locationzip>
+      <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10136</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Swift Built</make>
+        <model>Stock Combo</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>24</length>
+        <width>7</width>
+        <height/>
+        <price>30999</price>
+        <slideouts/>
+        <description>2027 Swift Built 24' Stock Combo
+7' wide
+24' length
+4' Sides
+Rear Butterfly Gates
+3' Escape Door Driver Side
+Compartments 4/10/10
+2" Smooth Rubber Floor
+(2) 8k axles
+16" Wheels
+14 ply tires
+Pearl
+Black Out Aluminum Trim Color
+(3) Exterior Work Lights
+4' Double Door Walk in Tack Room
+(6) Saddle Racks
+(2) Swing Out Racks 3 saddle racks on each side
+Top Fenders with Rhino Liner
+Bridle Hooks
+Brush Box
+Blanket Poles under each saddle rack
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction>Aluminum</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>3EVGS2425V1136261</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/23/100223-1133.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/23/100223-1132.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/23/100223-1134.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/23/100223-1135.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/23/100223-1136.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/23/100223-1137.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/23/100223-1138.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/23/100223-1139.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/23/100223-1140.lg.jpg</image9>
+          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/23/100223-1141.lg.jpg</image10>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10134</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Eby Trailers</make>
+        <model>Maverick</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>24</length>
+        <width>6.11</width>
+        <height>6.5</height>
+        <price>36199</price>
+        <slideouts/>
+        <description>2027 Eby 24' Maverick Livestock Trailer
+24' length
+6'11 width
+6'7 inside height
+(2) 7k axles w/ electric brakes
+(4) Alloy Wheels
+Load Range E
+Spare tire mounted
+.115 Ridged Diamond Plate Floor
+Single Manual jack
+Full Swing tailgate with Sliding Pass through door
+(1) Full Swing w/ Sliding Pass Through Center Gates
+(1) Rolling Gate - 12' railing from drop wall
+33" Wide Hinged Door, Curbside
+(3) Lights on each side of roof rail
+(1) Lights on each side of bottom rail
+(3) Lights inside
+(4) STTR Lights, One Each Side
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4A2LG242XV3015130</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/20/100220-1113.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/20/100220-1115.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/20/100220-1116.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/20/100220-1117.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/20/100220-1118.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/20/100220-1119.lg.jpg</image6>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10130C</stocknumber>
+        <year>2023</year>
+        <condition>Used</condition>
+        <make>Twister</make>
+        <model>Stock Combo</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>38</length>
+        <width>8</width>
+        <height>7.5</height>
+        <price>97500</price>
+        <slideouts/>
+        <description>2023 Twister 16' Stock 9' Outlaw Proline Conversion
+30' on the floor
+9' Outlaw Proline Conversions
+16' Livestock Area
+4' Midtack
+(2) 8k axles
+17.5" rims
+Electric Brakes
+Sofa Sleeper
+Recessed cooktop
+Microwave
+TV
+Ducted AC
+3.0 Fridge
+Pre-Wired for Generator
+Shower
+Toilet
+Sink
+Walk thru door to midtack
+Swing out saddle rack
+Shelves
+Blanket Bar
+Hooks
+Plexiglass comes with trailer
+This trailer was bought brand new in 2025, has been used TWICE!!
+Please contact our sales team to verify all options
+We offer financing
+We offer delivery
+Trailer on consignments, NO TRADES
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>1S9GL3826PK933470</vin>
+        <livingquarters>true</livingquarters>
+        <midtack>true</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/14/100214-1025.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/14/100214-1023.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/14/100214-1024.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/14/100214-1026.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/14/100214-1027.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/14/100214-1028.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/14/100214-1029.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/14/100214-1030.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/14/100214-1031.lg.jpg</image9>
+          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/14/100214-1032.lg.jpg</image10>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10129C</stocknumber>
+        <year>2018</year>
+        <condition>Used</condition>
+        <make>Merhow</make>
+        <model>Stock Combo</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>41</length>
+        <width>8</width>
+        <height>7.5</height>
+        <price>70000</price>
+        <slideouts>1</slideouts>
+        <description>2018 Merhow Stock Combo 13'6 LQ w/ Bunk Room 16' Stockback
+41' overall length
+8' wide
+13'6 LQ
+Midtack with bunks
+Side tack with saddle racks, bridle hooks and blanket rack
+Slideout
+Ducted A/C
+Sofa Sleeper
+Kitchen sink
+Microwave
+6.0 Fridge
+Recessed Stovetop
+Shower
+Toilet
+Bathroom Sink
+Hay Rack
+WERM Flooring in stock area
+Cut Gate
+Please contact our sales team to verify all options
+We offer financing
+We offer delivery
+Trailer on consignments, NO TRADES
+(573) 869-0231</description>
+        <lqlength>6</lqlength>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>1M9L04122J1031568</vin>
+        <livingquarters>true</livingquarters>
+        <midtack>true</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1001.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1003.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1004.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1005.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1006.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1007.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1008.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1009.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1010.lg.jpg</image9>
+          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1011.lg.jpg</image10>
+          <image11>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1012.lg.jpg</image11>
+          <image12>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1013.lg.jpg</image12>
+          <image13>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1014.lg.jpg</image13>
+          <image14>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1015.lg.jpg</image14>
+          <image15>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1016.lg.jpg</image15>
+          <image16>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1017.lg.jpg</image16>
+          <image17>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1018.lg.jpg</image17>
+          <image18>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1019.lg.jpg</image18>
+          <image19>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1020.lg.jpg</image19>
+          <image20>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/13/100213-1021.lg.jpg</image20>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10128C</stocknumber>
+        <year>2021</year>
+        <condition>Used</condition>
+        <make>Lakota Trailers</make>
+        <model>Living Quarters</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>32</length>
+        <width>8</width>
+        <height>7.5</height>
+        <price>65000</price>
+        <slideouts>1</slideouts>
+        <description>2021 Lakota 11' Living Quarters 16' Stockback
+32' length
+8' wide
+11' Living Quarters w/ slide out
+16' Stock back
+Sofa Sleeper
+6.0 Fride/Freezer Combo
+Micorwave
+Shower
+Toilet
+Sink in bathroom and ktichen
+Recessed Stovetop
+Vent A/C
+Onan 4.0 Generator wired into LQ for push start
+Ramp on Midtack
+Walk thru door from LQ to midtack to stock area
+4 Saddle Rack (swing out)
+Bridle Hooks
+Blanket Bars
+Plexiglass for stock area
+Escape door
+Please contact our sales team to verify all options
+We offer financing
+We offer delivery
+Trailer on consignments, NO TRADES
+(573) 869-0231</description>
+        <lqlength>11</lqlength>
+        <loadtype/>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>58JGL1K21M1000779</vin>
+        <livingquarters>true</livingquarters>
+        <midtack>true</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-982.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-983.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-984.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-985.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-986.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-987.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-988.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-989.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-990.lg.jpg</image9>
+          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-991.lg.jpg</image10>
+          <image11>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-992.lg.jpg</image11>
+          <image12>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-993.lg.jpg</image12>
+          <image13>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-994.lg.jpg</image13>
+          <image14>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-995.lg.jpg</image14>
+          <image15>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-996.lg.jpg</image15>
+          <image16>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-997.lg.jpg</image16>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10124</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Eby Trailers</make>
+        <model>Maverick</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>24</length>
+        <width>6.11</width>
+        <height>6.5</height>
+        <price>34999</price>
+        <slideouts/>
+        <description>2027 Eby 24' Maverick Livestock Trailer
+24' length
+6'11 width
+6'7 inside height
+(2) 7k axles w/ electric brakes
+(4) Alloy Wheels
+14 ply tire/Load Range G
+Spare tire mounted
+.115 Ridged Diamond Plate Floor
+Single Manual jack
+Full Swing tailgate with Sliding Pass through door
+(1) Full Swing w/ Sliding Pass Through Center Gates
+(1) Full Swing
+33" Wide Hinged Door, Curbside
+Upright Dock Bumpers
+(3) Lights on each side of roof rail
+(1) Lights on each side of bottom rail
+(2) Lights inside
+(4) STTR Lights, One Each Side
+(2) LED Load Lights
+* Please contact our sales team to verify all options *
+We accept trades
+We offer delivery
+We offer financing</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4A2LG2422V3015204</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/06/100206-1123.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/06/100206-1125.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/06/100206-1120.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/06/100206-1121.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/06/100206-1122.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/06/100206-1124.lg.jpg</image6>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10122C</stocknumber>
+        <year>2020</year>
+        <condition>Used</condition>
+        <make>Twister</make>
+        <model>Living Quarters</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses>4</horses>
+        <axles>3</axles>
+        <length>35</length>
+        <width>8</width>
+        <height>7.5</height>
+        <price>125000</price>
+        <slideouts>1</slideouts>
+        <description>2020 Twister 4 Horse Side Load 15'6 Trail Boss Horse - Living Quarters
+35' length
+8' wide
+7'6" tall
+Sofa/Couch combo
+Microwave
+6.0 Fridge/Freezer
+TV
+Slideout
+Privacy Nose
+Side Load
+Mangers
+Haypod
+Gas Generator
+Full Rear Tack
+Power Awning
+Please contact our sales team to verify all options
+We offer financing
+We offer delivery
+Trailer on consignments, NO TRADES
+(573) 869-0231</description>
+        <lqlength>2020</lqlength>
+        <loadtype/>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>99999999999999992</vin>
+        <livingquarters>true</livingquarters>
+        <midtack>false</midtack>
+        <manger>true</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-979.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-975.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-976.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-977.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-978.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-907.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-908.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-909.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-910.lg.jpg</image9>
+          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-911.lg.jpg</image10>
+          <image11>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-912.lg.jpg</image11>
+          <image12>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-913.lg.jpg</image12>
+          <image13>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-914.lg.jpg</image13>
+          <image14>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-915.lg.jpg</image14>
+          <image15>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-916.lg.jpg</image15>
+          <image16>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-917.lg.jpg</image16>
+          <image17>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-962.lg.jpg</image17>
+          <image18>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-964.lg.jpg</image18>
+          <image19>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-966.lg.jpg</image19>
+          <image20>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-967.lg.jpg</image20>
+          <image21>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-968.lg.jpg</image21>
+          <image22>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-969.lg.jpg</image22>
+          <image23>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-970.lg.jpg</image23>
+          <image24>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-973.lg.jpg</image24>
+          <image25>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/03/100203-980.lg.jpg</image25>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10120</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Eby Trailers</make>
+        <model>Maverick</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>24</length>
+        <width>6.11</width>
+        <height>6.5</height>
+        <price>36499</price>
+        <slideouts/>
+        <description>2027 Eby 24' Maverick Livestock Trailer
+24' length
+6'11 width
+6'7 inside height
+(2) 7k axles w/ electric brakes
+(4) Alloy Wheels
+14 ply tire/Load Range G
+Spare tire mounted
+.115 Ridged Diamond Plate Floor
+Single Manual jack
+Full Swing tailgate with Sliding Pass through door
+(1) Full Swing w/ Sliding Pass Through Center Gates
+(1) Rolling Gate - 12' railing from drop wall
+33" Wide Hinged Door, Curbside
+Upright Dock Bumpers
+(3) Lights on each side of roof rail
+(1) Lights on each side of bottom rail
+(2) Lights inside
+(4) STTR Lights, One Each Side
+(2) LED Load Lights
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4A2LG2428V3015112</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/02/100202-929.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/02/100202-928.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/02/100202-925.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/02/100202-926.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/02/100202-927.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/02/100202-930.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/02/100202-931.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/02/100202-947.lg.jpg</image8>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10118</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Eby Trailers</make>
+        <model>Maverick</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>20</length>
+        <width>6.11</width>
+        <height>6.5</height>
+        <price>31999</price>
+        <slideouts/>
+        <description>2027 Eby 20' Maverick Livestock Trailer
+20' length
+6'11 wide
+6'7 interior height
+(2) 7k axles
+Electric Brakes
+Spare Mounted on Drop Sheet
+Mill Finished Nose
+(1) Rolling Center Gate
+Rolling Rail 11.7 off drop
+Full Swing Tailgate w/ 1/2 Sliders
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4A2LG2024V3015114</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/00/100200-889.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/00/100200-884.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/00/100200-883.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/00/100200-885.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/00/100200-886.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/00/100200-887.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/00/100200-888.lg.jpg</image7>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10114</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Featherlite Trailers</make>
+        <model>Stock Trailer</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>20</length>
+        <width>6.7</width>
+        <height>6.5</height>
+        <price>27699</price>
+        <slideouts/>
+        <description>2027 Featherlite 20' Stock Trailer
+20' length
+6'7" wide
+6'6" tall
+(2) 7k torsion axles
+electric brakes
+(1) center gates with sliders
+interior lights
+black finish aluminum sheets on nose
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction>Aluminum</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4FGB2202XTC166863</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/95/100195-1169.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/95/100195-1164.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/95/100195-1165.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/95/100195-1166.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/95/100195-1167.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/95/100195-1168.lg.jpg</image6>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10113</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Featherlite Trailers</make>
+        <model>Stock Trailer</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>20</length>
+        <width>6.7</width>
+        <height>6.5</height>
+        <price>27699</price>
+        <slideouts/>
+        <description>2027 Featherlite 20' Stock Trailer
+20' length
+6'7" wide
+6'6" tall
+(2) 7k torsion axles
+electric brakes
+(1) center gates with sliders
+interior lights
+exterior lights
+mill finish aluminum sheets on nose
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction>Aluminum</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4FGB22021TC166864</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100194-1157.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100194-1155.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100194-1156.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100194-1158.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100194-1159.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100194-1160.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100194-1161.lg.jpg</image7>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10110</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Featherlite Trailers</make>
+        <model>Stock Trailer</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>24</length>
+        <width>7.5</width>
+        <height>6.5</height>
+        <price>37999</price>
+        <slideouts/>
+        <description>2027 Featherlite 24' Stock Trailer
+24' length
+7'6" wide
+6'6" tall
+(2) 7k torsion axles
+electric brakes
+(2) center gates with sliders
+interior lights
+exterior lights
+black aluminum sheets on nose
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction>Aluminum</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4FGB22424TC166867</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/91/100191-1092.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/91/100191-1089.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/91/100191-1091.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/91/100191-1090.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/91/100191-1084.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/91/100191-1085.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/91/100191-1086.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/91/100191-1087.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/91/100191-1088.lg.jpg</image9>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10109</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Featherlite Trailers</make>
+        <model>Stock Trailer</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>24</length>
+        <width>7.5</width>
+        <height>6.5</height>
+        <price>37999</price>
+        <slideouts/>
+        <description>2027 Featherlite 24' Stock Trailer
+24' length
+7'6" wide
+6'6" tall
+(2) 7k torsion axles
+electric brakes
+(2) center gates with sliders
+interior lights
+exterior lights
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4FGB22426TC166868</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/90/100190-1066.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/90/100190-1065.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/90/100190-1067.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/90/100190-1068.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/90/100190-1069.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/90/100190-1070.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/90/100190-1071.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/90/100190-1072.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/90/100190-1073.lg.jpg</image9>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10104</stocknumber>
+        <year>2026</year>
+        <condition>New</condition>
+        <make>Swift Built</make>
+        <model>Stock Combo</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>24</length>
+        <width>7</width>
+        <height>7</height>
+        <price>28499</price>
+        <slideouts/>
+        <description>2026 Swift Built 24' Stock Combo
+24' length
+7' width
+4' high sides
+Full top
+Rear butterfly gates
+Compartments: 4' tack, 10', 10'
+2" Smooth Rubber Flooring (30 year guarantee)
+1/2" spacing between floor boards
+(2) 7000 lb axles w/ electric brakes
+Charcoal Color
+Black Out Trim Package
+Upgraded running light package
+(3) Exterior Work Lights LED
+Center Gate w/ slider
+4' Walk in tack room with door on each side
+(6) Saddle Racks on swing out
+(4 blanket bars
+(12) tack room hooks
+Cleanout gap along bottom
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>3EVGS2427T1130992</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100184-851.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100184-850.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100184-849.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100184-852.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100184-853.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100184-854.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100184-855.lg.jpg</image7>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10102C</stocknumber>
+        <year>2017</year>
+        <condition>Used</condition>
+        <make>Alum-Line</make>
+        <model>Alumline 25' Livestock Trailer</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>25</length>
+        <width>7.5</width>
+        <height/>
+        <price>22999</price>
+        <slideouts/>
+        <description>2017 Alumline 25' Livestock Trailer
+25' length
+7' 6" wide
+(1) floating gate
+(1) solid hinged center gate
+slider on rear door with full swing
+sorting gate on interior gate
+white nose
+escape door
+electric brakes
+Please contact our sales team to verify all options
+We offer financing
+We offer delivery
+Trailer on consignments, NO TRADES
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction>Aluminum</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>1A9LG232XD2241855</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/82/100182-836.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/82/100182-837.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/82/100182-830.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/82/100182-831.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/82/100182-832.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/82/100182-833.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/82/100182-834.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/82/100182-835.lg.jpg</image8>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10101</stocknumber>
+        <year>2026</year>
+        <condition>New</condition>
+        <make>Twister</make>
+        <model>Living Quarters</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses>5</horses>
+        <axles>3</axles>
+        <length>37</length>
+        <width>8</width>
+        <height>7.5</height>
+        <price>209999</price>
+        <slideouts/>
+        <description>2026 Twister 5 Horse Side Load 13'6 Trail Boss Horse - Living Quarters
+(3) 8,000 lb axles
+17.5" aluminum wheels
+Hydraulic Disc Brakes
+5 Horse
+(25) Bridle Hooks
+(5) Manger Hooks
+Rubber Mats in Horse area &amp; tack
+74" Sofa Sleeper
+70" Dinetter
+Microwave
+Recessed Cooktop
+Gray/Black/Fresh Water Tanks
+8.0 Fridge/Freezer
+(1) TV
+Toilet
+Shower
+Double Pole Closet
+Shelving in rear tack
+Lock box in rear tack
+4.0 Onan Gas Generator
+Integrated Haypod
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength>2026</lqlength>
+        <loadtype/>
+        <construction>Aluminum</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>1S9GL3739TK933595</vin>
+        <livingquarters>true</livingquarters>
+        <midtack>false</midtack>
+        <manger>true</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-826.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-811.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-813.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-812.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-803.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-824.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-823.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-801.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-804.lg.jpg</image9>
+          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-805.lg.jpg</image10>
+          <image11>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-806.lg.jpg</image11>
+          <image12>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-808.lg.jpg</image12>
+          <image13>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-809.lg.jpg</image13>
+          <image14>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-810.lg.jpg</image14>
+          <image15>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-802.lg.jpg</image15>
+          <image16>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-814.lg.jpg</image16>
+          <image17>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-815.lg.jpg</image17>
+          <image18>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-816.lg.jpg</image18>
+          <image19>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-818.lg.jpg</image19>
+          <image20>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-820.lg.jpg</image20>
+          <image21>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-821.lg.jpg</image21>
+          <image22>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-822.lg.jpg</image22>
+          <image23>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-825.lg.jpg</image23>
+          <image24>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/80/100180-827.lg.jpg</image24>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10100</stocknumber>
+        <year>2026</year>
+        <condition>New</condition>
+        <make>Swift Built</make>
+        <model>Stock Combo</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>20</length>
+        <width>6.5</width>
+        <height/>
+        <price>25999</price>
+        <slideouts/>
+        <description>2026 Swift Built 20' Stock Combo
+20' length
+6.5' wide
+4' High Sides
+Full Top
+Rear Butterfly Gates
+4' Escape Gate on Roadside
+Compartments 4' Tack,8,8
+2" Smooth Rubber Board Floor - 30 year Guarantee!
+(2) 7000 lb axles
+16" Wheels
+Black with/ black out aluminum package
+(3) Exterior Lights
+4' Walk in Tack Room w/ Doors on Each Side
+(6) Saddle Racks
+(2) Blanket Bars
+(2) Swingout Saddle Racks
+(4) Extra Tack Room Hooks
+Cleanout Gap on the Bottom
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction>Aluminum</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>3EVGS2026V1135786</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/79/100179-1152.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/79/100179-1148.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/79/100179-1145.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/79/100179-1146.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/79/100179-1147.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/79/100179-1149.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/79/100179-1150.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/79/100179-1151.lg.jpg</image8>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10090</stocknumber>
+        <year>2025</year>
+        <condition>New</condition>
+        <make>Twister</make>
+        <model>Stock Combo</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses>5</horses>
+        <axles>2</axles>
+        <length>24</length>
+        <width>7.5</width>
+        <height>7</height>
+        <price>64999</price>
+        <slideouts/>
+        <description>2025 Twister 5 Horse 24' Stock Combo
+24' length on the floor
+7'1 tall
+7'6 wide
+Split Front Tack
+(1) A/C Brace (no AC attached)
+16" Allum Wheels
+14 ply tires
+(5) Load Lights
+(8) LED Light Bars
+(3) Horse Vents
+Insulated and Carpeted Front Tack
+(1) Stud Divider
+(26) Bridle Hooks
+8-Tier Pinned Blanket Bar
+Brush Tray
+Clothing Rack
+5-Tier Custom Adjustable Saddle Rack
+Boot Box
+25 Gal/ Plastic Water Tank w/ Stand
+Plexiglass
+Interior Plexiglass Holder
+(4) Dividers - last divider is folds down to fit flat against wall
+Don't miss this perfect run around trailer &amp; don't forget to ask us about leasing a Twister!
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>0000000000000S557</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/67/100167-727.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/67/100167-724.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/67/100167-725.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/67/100167-726.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/67/100167-728.lg.jpg</image5>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10081A</stocknumber>
+        <year>2024</year>
+        <condition>Used</condition>
+        <make>IKA Trailers</make>
+        <model>Stock Combo</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>20</length>
+        <width>8.5</width>
+        <height>8</height>
+        <price>17999</price>
+        <slideouts/>
+        <description>2024 IKA Trailers 20' Stock Combo
+20' length
+4' double door tack
+Swing out saddle rack
+Center Gate
+Interior and Exterior lights
+single jack
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>3A9K3HA28PC258038</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/64/100164-742.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/64/100164-744.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/64/100164-741.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/64/100164-737.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/64/100164-738.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/64/100164-739.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/64/100164-740.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/64/100164-743.lg.jpg</image8>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10080</stocknumber>
+        <year>2026</year>
+        <condition>New</condition>
+        <make>Delta Trailers</make>
+        <model>Livestock Bumper Pull</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Bumper Pull</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>14</length>
+        <width>6.5</width>
+        <height>6.5</height>
+        <price>8599</price>
+        <slideouts/>
+        <description>2026 Delta 14' Livestock Bumper Pull
+14' length
+6' width
+6'6 height
+(1) center gate w/ spring loaded slam latch
+(2) 3500 lb axles
+15" wheels
+Electric Brakes
+Top Wind Jack with Wheel
+2" Pressure Treated Pine Floor
+Escape Door
+16 gauge sides
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4MWBS1427TN070647</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/48/100148-676.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/48/100148-672.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/48/100148-673.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/48/100148-674.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/48/100148-675.lg.jpg</image5>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10077C</stocknumber>
+        <year>2024</year>
+        <condition>Used</condition>
+        <make>Hart Horse Trailers</make>
+        <model>4 Horse Side Load 15' LQ Outlaw Conversions</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses>4</horses>
+        <axles>2</axles>
+        <length>35</length>
+        <width>8</width>
+        <height>7.5</height>
+        <price>179999</price>
+        <slideouts/>
+        <description>2024 Hart Trailers 4 Horse Side Load 15' LQ Outlaw Conversions
+Like New Condition!
+(2) 10k axles
+8' wide
+Dual Hydraulic Jacks
+17.5" Alcoa Wheels
+Drop Down Windows Head/Rear Side
+Mangers
+Manger on escape door
+9' Hay pod
+Diesel Generator
+Full Rear Tack
+(4) Saddle Racks
+Shelves
+Blanket Bars
+Bridle Hooks
+Brush Trays
+Ramp
+Fuel Closet with Storage
+Airflow Dividers
+Stud Divider
+Electric Awning
+Water storage in hay pod
+Starlink Wifi On Board
+Cooktop
+Kitchen sink
+Micorwave
+6.0 Refridgerator
+Privacy nose with pocket door
+(2) Smart TV - one in nose and one in living area
+Half Dinette
+Sleeper Sofa
+Sink in Bath room
+Vanity with medicine cabinet
+Shower
+Toilet
+Linen Closet above toilet
+Please contact our sales team to verify all options
+We offer financing
+We offer delivery
+Trailer on consignments, NO TRADES
+(573) 869-0231
+Remote Consignment</description>
+        <lqlength>15</lqlength>
+        <loadtype/>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>1H96H352XR1051116</vin>
+        <livingquarters>true</livingquarters>
+        <midtack>false</midtack>
+        <manger>true</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-618.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-621.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-599.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-600.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-601.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-602.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-603.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-604.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-605.lg.jpg</image9>
+          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-606.lg.jpg</image10>
+          <image11>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-607.lg.jpg</image11>
+          <image12>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-608.lg.jpg</image12>
+          <image13>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-609.lg.jpg</image13>
+          <image14>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-610.lg.jpg</image14>
+          <image15>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-611.lg.jpg</image15>
+          <image16>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-612.lg.jpg</image16>
+          <image17>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-613.lg.jpg</image17>
+          <image18>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-614.lg.jpg</image18>
+          <image19>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-615.lg.jpg</image19>
+          <image20>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-616.lg.jpg</image20>
+          <image21>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-617.lg.jpg</image21>
+          <image22>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-619.lg.jpg</image22>
+          <image23>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/45/100145-620.lg.jpg</image23>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10050</stocknumber>
+        <year>2026</year>
+        <condition>New</condition>
+        <make>Delta Trailers</make>
+        <model>Livestock Bumper Pull</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Bumper Pull</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>12</length>
+        <width>6</width>
+        <height>6.5</height>
+        <price>8199</price>
+        <slideouts/>
+        <description>2026 Delta 12' Livestock Bumper Pull
+12' Length
+6' Width
+6'6" Height
+(2) 3500 lb axles
+Electric Brakes
+2" Bumper Coupler
+Single Jack
+Pressure Treated Pine Floor
+All LED Lights
+Arizona Beige Color
+Aluminum Diamondplate Rock Guard
+48" Sides
+Rear Gate Full Swing w/ Slider
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction>Aluminum</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4MWBS1225TN070648</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/96/100096-666.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/96/100096-667.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/96/100096-668.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/96/100096-669.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/96/100096-670.lg.jpg</image5>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Dump Trailer</type>
+        <stocknumber>10048</stocknumber>
+        <year>2026</year>
+        <condition>New</condition>
+        <make>Delta Trailers</make>
+        <model>Delta 14' Dump Bumperpull</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Bumper Pull</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>14</length>
+        <width>7</width>
+        <height>2</height>
+        <price>9999</price>
+        <slideouts/>
+        <description>2026 Delta 14' Dump Bumperpull
+14' length
+84" width
+24" sidewall height
+(2) 7k axles
+8 lugs
+All axles with electric brakes
+2 5/16" coupler
+Single Jack
+Smooth Metal Flooring
+Fold/Spreder Gate
+All LED lights
+Black Color
+White Pinstripe
+Aluminum Diamond Plate Trim
+Full Front Tool Box
+4 D Rings 1 in each corner
+6' Slide in ramp
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype/>
+        <construction>Aluminum</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4MWBD1429TN070644</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100094-496.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100094-497.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100094-498.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100094-499.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100094-500.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100094-501.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100094-502.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100094-503.lg.jpg</image8>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10045</stocknumber>
+        <year>2025</year>
+        <condition>New</condition>
+        <make>Twister</make>
+        <model>28' Stock Combo</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>28</length>
+        <width>7.5</width>
+        <height>7</height>
+        <price>71999</price>
+        <slideouts/>
+        <description>2025 Twister 28' Stock Combo
+7' tall
+7'6 wide
+36' length
+(2) 7k axles
+Electric Brakes
+16" Aluminum Wheels
+Hydraulic Jack
+White Exterior
+(4) Exterior LED Bar Load Lights
+(8) Pop up Roof Vents
+5' Double Door Walk Through Tack Room
+Fully lined &amp; insulated
+Carpeted floor &amp; nose
+(18) Bridle Hooks
+(2) Brush Trays
+6' Shelf
+4' Clothing Rod
+Steps in to tack
+(2) 3 Tier Adjustable Saddle Racks on tack room doors
+3' Boot Box
+Braced for A/C
+Polished Extrusions
+25 Gal Water Tank in tack
+8 Tier Blanket Bar
+All Aluminum
+Rubber Mat flooring
+Tie Rings (5 tie rings on each side/ 10 inside stock area)
+Battery
+Battery Box
+(1) Stud Divider
+(1) Standard Divider
+(1) Cut Gate
+Full Rear Gate
+Escape Door
+Ask us about leasing a brand new Twister Trailer!
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction>Aluminum</construction>
+        <emptyweight>7250</emptyweight>
+        <gtwr/>
+        <vin>1S9GL362XSK933564</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-237.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-238.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-239.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-240.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-241.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-242.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-243.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-244.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-245.lg.jpg</image9>
+          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-246.lg.jpg</image10>
+          <image11>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-247.lg.jpg</image11>
+          <image12>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-248.lg.jpg</image12>
+          <image13>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-249.lg.jpg</image13>
+          <image14>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-250.lg.jpg</image14>
+          <image15>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/87/100087-251.lg.jpg</image15>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10044</stocknumber>
+        <year>2025</year>
+        <condition>New</condition>
+        <make>Twister</make>
+        <model>14'9 Trail Boss LQ 4 Horse Side Load</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses>4</horses>
+        <axles>3</axles>
+        <length>35.5</length>
+        <width>8</width>
+        <height>7.5</height>
+        <price>199999</price>
+        <slideouts/>
+        <description>2025 Twister 14'9 Trail Boss LQ 4 Horse Side Load
+35'5 length
+8' wide
+7'6 tall
+Enclosed nose
+White Exterior
+Drops Heads/Tails
+Mangers
+Escape door on stud stall
+(3) 8k axles
+17.5" Aluminum Wheels
+18 Ply Tires
+Side Load
+Integrated Haypod
+Slide
+Load Lights
+Aluminum
+Rubber Mats on floor
+4.0 Gas Generator
+Lined &amp; Insulated
+13.5k BTU A/C
+Ducted A/C
+20k BTU Furnance
+6.0 Fridge
+Microwave
+Cooktop
+Interior/Exterior Speakers
+(1) TV
+Sofa/Dinette
+6 Gal Hot Water Heater
+Privacy Nose with Pocket Door
+Hat Rack
+Power Awning
+Ask us about leasing a brand new Twister Trailer!
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength>4</lqlength>
+        <loadtype/>
+        <construction>Aluminum</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>0000000000000S536</vin>
+        <livingquarters>true</livingquarters>
+        <midtack>false</midtack>
+        <manger>true</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-232.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-229.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-224.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-221.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-222.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-223.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-225.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-227.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-228.lg.jpg</image9>
+          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-214.lg.jpg</image10>
+          <image11>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-231.lg.jpg</image11>
+          <image12>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-230.lg.jpg</image12>
+          <image13>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-215.lg.jpg</image13>
+          <image14>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-216.lg.jpg</image14>
+          <image15>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-217.lg.jpg</image15>
+          <image16>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-218.lg.jpg</image16>
+          <image17>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-219.lg.jpg</image17>
+          <image18>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100084-220.lg.jpg</image18>
+        </images>
+      </inventoryitem>
+    </location>
+  </dealer>
+</feedimport>
