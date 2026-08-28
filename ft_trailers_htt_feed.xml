@@ -826,69 +826,6 @@ We offer financing and lease to own programs
         </images>
       </inventoryitem>
       <inventoryitem>
-        <type>Horse Trailer</type>
-        <stocknumber>10104</stocknumber>
-        <year>2026</year>
-        <condition>New</condition>
-        <make>Swift Built</make>
-        <model>Stock Combo</model>
-        <status>Available</status>
-        <onorder>false</onorder>
-        <hitch>Gooseneck</hitch>
-        <horses/>
-        <axles>2</axles>
-        <length>24</length>
-        <width>7</width>
-        <height>7</height>
-        <price>28499</price>
-        <slideouts/>
-        <description>2026 Swift Built 24' Stock Combo
-24' length
-7' width
-4' high sides
-Full top
-Rear butterfly gates
-Compartments: 4' tack, 10', 10'
-2" Smooth Rubber Flooring (30 year guarantee)
-1/2" spacing between floor boards
-(2) 7000 lb axles w/ electric brakes
-Charcoal Color
-Black Out Trim Package
-Upgraded running light package
-(3) Exterior Work Lights LED
-Center Gate w/ slider
-4' Walk in tack room with door on each side
-(6) Saddle Racks on swing out
-(4 blanket bars
-(12) tack room hooks
-Cleanout gap along bottom
-Please contact our sales team to verify all options
-We accept trades
-We offer delivery
-We offer financing and lease to own programs
-(573) 869-0231</description>
-        <lqlength/>
-        <loadtype>Stock</loadtype>
-        <construction/>
-        <emptyweight/>
-        <gtwr/>
-        <vin>3EVGS2427T1130992</vin>
-        <livingquarters>false</livingquarters>
-        <midtack>false</midtack>
-        <manger>false</manger>
-        <rearramp>false</rearramp>
-        <sideramp>false</sideramp>
-        <images>
-          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100184-851.lg.jpg</image1>
-          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100184-850.lg.jpg</image2>
-          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100184-849.lg.jpg</image3>
-          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100184-852.lg.jpg</image4>
-          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100184-853.lg.jpg</image5>
-          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100184-854.lg.jpg</image6>
-          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/84/100184-855.lg.jpg</image7>
-        </images>
-      </inventoryitem>
-      <inventoryitem>
         <type>Stock Trailer</type>
         <stocknumber>10102C</stocknumber>
         <year>2017</year>
