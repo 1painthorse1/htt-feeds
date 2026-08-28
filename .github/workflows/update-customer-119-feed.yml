@@ -16,6 +16,77 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
 
+      - name: Download Open Range feed with retry
+        env:
+          DATALINK_OPEN_RANGE_URL: ${{ secrets.DATALINK_OPEN_RANGE_URL }}
+        run: |
+          python - <<'PY'
+          from urllib.request import Request, urlopen
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          import os
+          import time
+
+          url = os.environ["DATALINK_OPEN_RANGE_URL"]
+          published = Path("open-range-trailer-sales.xml")
+          staged = Path("open-range-trailer-sales.xml.tmp")
+
+          for attempt in range(1, 11):
+              print(f"Attempt {attempt} of 10...")
+
+              try:
+                  request = Request(
+                      url,
+                      headers={"User-Agent": "Mozilla/5.0"}
+                  )
+
+                  with urlopen(request, timeout=60) as response:
+                      data = response.read()
+
+                  root = ET.fromstring(data)
+
+                  if root.tag.lower() == "error":
+                      print("Datalink says:", (root.text or "").strip())
+
+                  elif root.find(".//dealerid") is None:
+                      print("Export incomplete: no dealer ID present.")
+
+                  elif (root.findtext(".//dealerid") or "").strip() != "875":
+                      found = (root.findtext(".//dealerid") or "").strip()
+                      print(
+                          "Export incomplete: dealer 875 absent "
+                          f"(found {found!r})."
+                      )
+
+                  elif root.find(".//inventoryitem") is None:
+                      print("Export incomplete: no inventory items present.")
+
+                  else:
+                      items = list(root.iter("inventoryitem"))
+
+                      print("Datalink dealer ID: 875")
+                      print("Inventory items:", len(items))
+
+                      staged.write_bytes(data)
+                      staged.replace(published)
+
+                      print("Complete Open Range payload received and staged.")
+                      break
+
+              except Exception as e:
+                  print("Download attempt failed:", e)
+
+              if attempt < 10:
+                  print("Waiting 30 seconds before trying again...")
+                  time.sleep(30)
+
+          else:
+              raise SystemExit(
+                  "ERROR: Datalink did not return a complete dealer 875 export "
+                  "after 10 attempts. Published XML left unchanged."
+              )
+          PY
+
       - name: Add HTT location ID
         run: |
           python - <<'PY'
