@@ -16,20 +16,145 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
 
-      - name: Download Trailer Funnel XML
+      - name: Download Imperial feed with retry
+        env:
+          DATALINK_IMPERIAL_URL: ${{ secrets.DATALINK_IMPERIAL_URL }}
         run: |
-          curl --fail --location --silent --show-error \
-            --output imperial-trailer-sales.xml \
-            'https://api.datalink.ai/api/inventories-export/364?customerId=176&type=xml&refresh=auto'
+          python - <<'PY'
+          from urllib.request import Request, urlopen
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          import os
+          import time
 
-      - name: Validate XML
+          url = os.environ["DATALINK_IMPERIAL_URL"]
+          published = Path("imperial-trailer-sales.xml")
+          staged = Path("imperial-trailer-sales.xml.tmp")
+
+          # Previously published count, read before anything is overwritten,
+          # for the inventory-count collapse guard.
+          previous = 0
+
+          if published.exists():
+              try:
+                  previous = len(
+                      list(ET.parse(published).getroot().iter("inventoryitem"))
+                  )
+              except Exception as e:
+                  print("Could not read previously published feed:", e)
+
+          print("Previously published inventory items:", previous)
+
+          for attempt in range(1, 11):
+              print(f"Attempt {attempt} of 10...")
+
+              try:
+                  request = Request(
+                      url,
+                      headers={"User-Agent": "Mozilla/5.0"}
+                  )
+
+                  with urlopen(request, timeout=60) as response:
+                      data = response.read()
+
+                  root = ET.fromstring(data)
+
+                  if root.tag.lower() == "error":
+                      print("Datalink says:", (root.text or "").strip())
+
+                  elif root.find(".//dealerid") is None:
+                      print("Feed not ready: dealer ID not found.")
+
+                  elif root.find(".//inventoryitem") is None:
+                      print("Feed not ready: inventory items not found.")
+
+                  else:
+                      dealer_id = (root.findtext(".//dealerid") or "").strip()
+                      location_id = (root.findtext(".//locationid") or "").strip()
+                      items = list(root.iter("inventoryitem"))
+
+                      print("Datalink dealer ID:", dealer_id)
+                      print("Datalink location ID:", location_id)
+                      print("Inventory items:", len(items))
+
+                      if dealer_id != "103":
+                          raise SystemExit(
+                              f"ERROR: Unexpected dealer ID: {dealer_id}"
+                          )
+
+                      if location_id != "150":
+                          raise SystemExit(
+                              f"ERROR: Unexpected location ID: {location_id}"
+                          )
+
+                      if len(items) < 1:
+                          raise SystemExit(
+                              "ERROR: Export contained zero inventory items."
+                          )
+
+                      floor = max(5, int(previous * 0.6))
+
+                      if previous and len(items) < floor:
+                          raise SystemExit(
+                              "ERROR: Inventory collapse guard tripped: "
+                              f"{len(items)} items vs {previous} previously "
+                              f"(floor {floor}). Published XML left unchanged."
+                          )
+
+                      staged.write_bytes(data)
+                      staged.replace(published)
+
+                      print("Valid Imperial inventory feed published.")
+                      break
+
+              except SystemExit:
+                  raise
+
+              except Exception as e:
+                  print("Download attempt failed:", e)
+
+              if attempt < 10:
+                  print("Waiting 30 seconds before trying again...")
+                  time.sleep(30)
+
+          else:
+              raise SystemExit(
+                  "ERROR: Datalink did not return a completed inventory feed "
+                  "after 10 attempts. Published XML left unchanged."
+              )
+          PY
+
+      - name: Validate final Imperial XML
         run: |
           python - <<'PY'
           import xml.etree.ElementTree as ET
+          from collections import Counter
 
           path = "imperial-trailer-sales.xml"
-          ET.parse(path)
+
+          root = ET.parse(path).getroot()
+
           print("XML validated successfully")
+
+          stocknumbers = []
+
+          for elem in root.iter("stocknumber"):
+              value = (elem.text or "").strip()
+              if value:
+                  stocknumbers.append(value)
+
+          counts = Counter(stocknumbers)
+          duplicates = [x for x, count in counts.items() if count > 1]
+
+          print("Stock numbers found:", len(stocknumbers))
+          print("Unique stock numbers:", len(counts))
+
+          if duplicates:
+              print("WARNING - duplicate stock numbers:")
+              for x in duplicates:
+                  print(x)
+          else:
+              print("No duplicate stock numbers found.")
           PY
 
       - name: Save updated feed
