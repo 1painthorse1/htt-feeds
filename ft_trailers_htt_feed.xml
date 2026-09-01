@@ -718,6 +718,60 @@ We offer financing and lease to own programs
       </inventoryitem>
       <inventoryitem>
         <type>Stock Trailer</type>
+        <stocknumber>10111</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Featherlite Trailers</make>
+        <model>Stock Trailer</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>24</length>
+        <width>6.7</width>
+        <height>6.5</height>
+        <price>31999</price>
+        <slideouts/>
+        <description>2027 Featherlite 24'' Stock Trailer
+24' length
+6'7" wide
+6'6" tall
+(2) 7k torsion axles
+electric brakes
+(2) center gates with sliders
+interior lights
+exterior lights
+white aluminum sheets on nose
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction>Aluminum</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4FGB22422TC166866</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/92/100192-1184.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/92/100192-1177.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/92/100192-1178.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/92/100192-1179.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/92/100192-1180.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/92/100192-1181.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/92/100192-1182.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/92/100192-1183.lg.jpg</image8>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
         <stocknumber>10110</stocknumber>
         <year>2027</year>
         <condition>New</condition>
