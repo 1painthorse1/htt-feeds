@@ -284,79 +284,6 @@ Trailer on consignments, NO TRADES
         </images>
       </inventoryitem>
       <inventoryitem>
-        <type>Horse Trailer</type>
-        <stocknumber>10128C</stocknumber>
-        <year>2021</year>
-        <condition>Used</condition>
-        <make>Lakota Trailers</make>
-        <model>Living Quarters</model>
-        <status>Available</status>
-        <onorder>false</onorder>
-        <hitch>Gooseneck</hitch>
-        <horses/>
-        <axles>2</axles>
-        <length>32</length>
-        <width>8</width>
-        <height>7.5</height>
-        <price>65000</price>
-        <slideouts>1</slideouts>
-        <description>2021 Lakota 11' Living Quarters 16' Stockback
-32' length
-8' wide
-11' Living Quarters w/ slide out
-16' Stock back
-Sofa Sleeper
-6.0 Fride/Freezer Combo
-Micorwave
-Shower
-Toilet
-Sink in bathroom and ktichen
-Recessed Stovetop
-Vent A/C
-Onan 4.0 Generator wired into LQ for push start
-Ramp on Midtack
-Walk thru door from LQ to midtack to stock area
-4 Saddle Rack (swing out)
-Bridle Hooks
-Blanket Bars
-Plexiglass for stock area
-Escape door
-Please contact our sales team to verify all options
-We offer financing
-We offer delivery
-Trailer on consignments, NO TRADES
-(573) 869-0231</description>
-        <lqlength>11</lqlength>
-        <loadtype/>
-        <construction/>
-        <emptyweight/>
-        <gtwr/>
-        <vin>58JGL1K21M1000779</vin>
-        <livingquarters>true</livingquarters>
-        <midtack>true</midtack>
-        <manger>false</manger>
-        <rearramp>false</rearramp>
-        <sideramp>false</sideramp>
-        <images>
-          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-982.lg.jpg</image1>
-          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-983.lg.jpg</image2>
-          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-984.lg.jpg</image3>
-          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-985.lg.jpg</image4>
-          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-986.lg.jpg</image5>
-          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-987.lg.jpg</image6>
-          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-988.lg.jpg</image7>
-          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-989.lg.jpg</image8>
-          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-990.lg.jpg</image9>
-          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-991.lg.jpg</image10>
-          <image11>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-992.lg.jpg</image11>
-          <image12>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-993.lg.jpg</image12>
-          <image13>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-994.lg.jpg</image13>
-          <image14>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-995.lg.jpg</image14>
-          <image15>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-996.lg.jpg</image15>
-          <image16>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/11/100211-997.lg.jpg</image16>
-        </images>
-      </inventoryitem>
-      <inventoryitem>
         <type>Stock Trailer</type>
         <stocknumber>10124</stocknumber>
         <year>2027</year>
@@ -733,7 +660,7 @@ We offer financing and lease to own programs
         <height>6.5</height>
         <price>31999</price>
         <slideouts/>
-        <description>2027 Featherlite 24'' Stock Trailer
+        <description>2027 Featherlite 24' Stock Trailer
 24' length
 6'7" wide
 6'6" tall
