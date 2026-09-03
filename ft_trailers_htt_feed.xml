@@ -1122,59 +1122,6 @@ We offer financing and lease to own programs
         </images>
       </inventoryitem>
       <inventoryitem>
-        <type>Stock Trailer</type>
-        <stocknumber>10080</stocknumber>
-        <year>2026</year>
-        <condition>New</condition>
-        <make>Delta Trailers</make>
-        <model>Livestock Bumper Pull</model>
-        <status>Available</status>
-        <onorder>false</onorder>
-        <hitch>Bumper Pull</hitch>
-        <horses/>
-        <axles>2</axles>
-        <length>14</length>
-        <width>6.5</width>
-        <height>6.5</height>
-        <price>8599</price>
-        <slideouts/>
-        <description>2026 Delta 14' Livestock Bumper Pull
-14' length
-6' width
-6'6 height
-(1) center gate w/ spring loaded slam latch
-(2) 3500 lb axles
-15" wheels
-Electric Brakes
-Top Wind Jack with Wheel
-2" Pressure Treated Pine Floor
-Escape Door
-16 gauge sides
-Please contact our sales team to verify all options
-We accept trades
-We offer delivery
-We offer financing and lease to own programs
-(573) 869-0231</description>
-        <lqlength/>
-        <loadtype>Stock</loadtype>
-        <construction/>
-        <emptyweight/>
-        <gtwr/>
-        <vin>4MWBS1427TN070647</vin>
-        <livingquarters>false</livingquarters>
-        <midtack>false</midtack>
-        <manger>false</manger>
-        <rearramp>false</rearramp>
-        <sideramp>false</sideramp>
-        <images>
-          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/48/100148-676.lg.jpg</image1>
-          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/48/100148-672.lg.jpg</image2>
-          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/48/100148-673.lg.jpg</image3>
-          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/48/100148-674.lg.jpg</image4>
-          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/48/100148-675.lg.jpg</image5>
-        </images>
-      </inventoryitem>
-      <inventoryitem>
         <type>Horse Trailer</type>
         <stocknumber>10077C</stocknumber>
         <year>2024</year>
