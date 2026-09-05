@@ -359,7 +359,7 @@ We offer financing</description>
         <length>35</length>
         <width>8</width>
         <height>7.5</height>
-        <price>125000</price>
+        <price>122500</price>
         <slideouts>1</slideouts>
         <description>2020 Twister 4 Horse Side Load 15'6 Trail Boss Horse - Living Quarters
 35' length
@@ -1003,71 +1003,6 @@ We offer financing and lease to own programs
           <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/79/100179-1149.lg.jpg</image6>
           <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/79/100179-1150.lg.jpg</image7>
           <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/79/100179-1151.lg.jpg</image8>
-        </images>
-      </inventoryitem>
-      <inventoryitem>
-        <type>Horse Trailer</type>
-        <stocknumber>10090</stocknumber>
-        <year>2025</year>
-        <condition>New</condition>
-        <make>Twister</make>
-        <model>Stock Combo</model>
-        <status>Available</status>
-        <onorder>false</onorder>
-        <hitch>Gooseneck</hitch>
-        <horses>5</horses>
-        <axles>2</axles>
-        <length>24</length>
-        <width>7.6</width>
-        <height>7</height>
-        <price>64999</price>
-        <slideouts/>
-        <description>2025 Twister 5 Horse 24'' Stock Combo
-24' length on the floor
-7'1 tall
-7'6 wide
-Split Front Tack
-(1) A/C Brace (no AC attached)
-16" Allum Wheels
-14 ply tires
-(5) Load Lights
-(8) LED Light Bars
-(3) Horse Vents
-Insulated and Carpeted Front Tack
-(1) Stud Divider
-(26) Bridle Hooks
-8-Tier Pinned Blanket Bar
-Brush Tray
-Clothing Rack
-5-Tier Custom Adjustable Saddle Rack
-Boot Box
-25 Gal/ Plastic Water Tank w/ Stand
-Plexiglass
-Interior Plexiglass Holder
-(4) Dividers - last divider is folds down to fit flat against wall
-Don't miss this perfect run around trailer &amp; don't forget to ask us about leasing a Twister!
-Please contact our sales team to verify all options
-We accept trades
-We offer delivery
-We offer financing and lease to own programs
-(573) 869-0231</description>
-        <lqlength/>
-        <loadtype>Stock</loadtype>
-        <construction/>
-        <emptyweight/>
-        <gtwr/>
-        <vin>0000000000000S557</vin>
-        <livingquarters>false</livingquarters>
-        <midtack>false</midtack>
-        <manger>false</manger>
-        <rearramp>false</rearramp>
-        <sideramp>false</sideramp>
-        <images>
-          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/67/100167-727.lg.jpg</image1>
-          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/67/100167-724.lg.jpg</image2>
-          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/67/100167-725.lg.jpg</image3>
-          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/67/100167-726.lg.jpg</image4>
-          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/67/100167-728.lg.jpg</image5>
         </images>
       </inventoryitem>
       <inventoryitem>
