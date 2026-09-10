@@ -807,6 +807,67 @@ We offer financing and lease to own programs
         </images>
       </inventoryitem>
       <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10108</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Featherlite Trailers</make>
+        <model>Stock Combo</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>24</length>
+        <width>7.6</width>
+        <height>7</height>
+        <price>42599</price>
+        <slideouts/>
+        <description>2027 Featherlite 24'' Stock Combo
+20' length
+7'6" wide
+7' tall
+(2) 7k torsion axles
+spare tire
+electric brakes
+interior lights
+exterior lights
+4' tack room
+(4) saddle racks
+blanket bars
+bridle hooks
+mill finish
+carpeted tack room
+10'/10' compartments
+5864 Highway 24
+Palmyra, MO 63461</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4FGB12424TC166869</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1192.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1187.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1189.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1190.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1191.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1193.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1194.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1195.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1196.lg.jpg</image9>
+          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1197.lg.jpg</image10>
+          <image11>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1198.lg.jpg</image11>
+          <image12>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1199.lg.jpg</image12>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
         <type>Stock Trailer</type>
         <stocknumber>10102C</stocknumber>
         <year>2017</year>
