@@ -12,6 +12,141 @@
       <locationzip>63461</locationzip>
       <inventoryitem>
         <type>Horse Trailer</type>
+        <stocknumber>10138</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Swift Built</make>
+        <model>Trainer Trailer</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>24</length>
+        <width>7</width>
+        <height/>
+        <price>33199</price>
+        <slideouts/>
+        <description>2027 Swift Built 24' Trainer Trailer
+24' length
+7' wide
+5' high Sides
+Full Top
+Rear Butterfly Gates
+4' Escape Gate on Roadside
+Compartments: Smart Tack/4/8/8
+2" Smooth Rubber Board Floor
+(2) 8000 lb axles
+14 ply tires w/ 16" steel
+Beige
+Black Out
+7.5 Split Smart Tack Room
+8 Saddle Racks
+4 Blanket Bars
+Top Fenders with Rhino Liner
+6 Extra Tack Room Hooks
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231
+5864 Highway 24
+Palmyra, MO 63461</description>
+        <lqlength/>
+        <loadtype/>
+        <construction>Steel</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>3EVGS2427V1137363</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1233.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1230.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1224.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1225.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1226.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1227.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1228.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1229.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1231.lg.jpg</image9>
+          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1232.lg.jpg</image10>
+          <image11>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1234.lg.jpg</image11>
+          <image12>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1235.lg.jpg</image12>
+          <image13>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1236.lg.jpg</image13>
+          <image14>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1237.lg.jpg</image14>
+          <image15>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/27/100227-1238.lg.jpg</image15>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10137</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Swift Built</make>
+        <model>Livestock Trailer</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>24</length>
+        <width>7</width>
+        <height/>
+        <price>28299</price>
+        <slideouts/>
+        <description>2027 Swift Built 24' Livestock Trailer
+24' length
+7' Wide
+4' High Sides
+Full Top
+Rear Swing w/ Slider
+3' Escape Gate on Roadside
+Compartments 8/8/8
+2" Single Lug Board
+1/2" Spacing
+(2) 8k axles
+14 ply tires w/ 16" rims
+Charcoal
+Blackout Aluminum
+1 Exterior Work Light
+Slider Gate on rear cut gate
+Clean out gap
+Load light
+Please contact our sales team to verify all options
+We accept trades
+We offer delivery
+We offer financing and lease to own programs
+(573) 869-0231
+5864 Highway 24
+Palmyra, MO 63461</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction>Aluminum</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>3EVGS2427V1137329</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/26/100226-1205.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/26/100226-1208.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/26/100226-1201.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/26/100226-1202.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/26/100226-1203.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/26/100226-1204.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/26/100226-1206.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/26/100226-1207.lg.jpg</image8>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
         <stocknumber>10136</stocknumber>
         <year>2027</year>
         <condition>New</condition>
