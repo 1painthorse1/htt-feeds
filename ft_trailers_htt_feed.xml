@@ -11,6 +11,162 @@
       <locationstate>MO</locationstate>
       <locationzip>63461</locationzip>
       <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10142</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Swift Built</make>
+        <model>Livestock Trailer</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>20</length>
+        <width>7</width>
+        <height>7</height>
+        <price>24499</price>
+        <slideouts/>
+        <description>2027 Swift Built 20' Livestock Trailer Livestock Trailer
+20' length
+7' wide
+4' sides
+Full top
+Rear Swing/Slider Gate
+3' Escape Gate On Roadside
+Compartments: 10/10
+2" Single Lug Board
+(2) 7000 lb axles
+14 ply tires w/ 16" rims
+Color: Gray
+Aluminum Trim: Black Out
+LED Exterior Work Light
+Center Gate w/ Slider
+Cleanout gap at bottom
+5864 Highway 24
+Palmyra, MO 63461</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction>Aluminum</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>3EVGS2025V1137271</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/33/100233-1281.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/33/100233-1274.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/33/100233-1275.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/33/100233-1276.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/33/100233-1277.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/33/100233-1278.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/33/100233-1279.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/33/100233-1280.lg.jpg</image8>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10139B</stocknumber>
+        <year>2016</year>
+        <condition>Used</condition>
+        <make>Cherokee</make>
+        <model>Livestock Trailer</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>3</axles>
+        <length>32</length>
+        <width>7</width>
+        <height/>
+        <price>21500</price>
+        <slideouts/>
+        <description>2016 Cherokee 32' Livestock Trailer Livestock Trailer
+32' length
+7' wide
+(3) 7k axles
+Full Rear Gate with slider
+(2) Solid center gates
+Electric Brakes
+17.5 Wheels
+This trailer was just serviced and ready to go!
+5864 Highway 24
+Palmyra, MO 63461</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>5PRSG3228G0004309</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/32/100232-1266.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/32/100232-1267.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/32/100232-1268.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/32/100232-1269.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/32/100232-1270.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/32/100232-1271.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/32/100232-1272.lg.jpg</image7>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10139</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Eby Trailers</make>
+        <model>Maverick</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>20</length>
+        <width>6.92</width>
+        <height>6.5</height>
+        <price>31899</price>
+        <slideouts/>
+        <description>2027 Eby 20' Maverick Livestock Trailer
+20' length
+6'11 wide
+6'7 interior height
+(2) 7k axles
+Electric Brakes
+Spare Mounted on Drop Sheet
+Mill Finished Nose
+(1) Center Gate w/ 1/2 Sliding Pass Through Door
+(4) STTR Lights
+5864 Highway 24
+Palmyra, MO 63461</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4A2LG2027V3015558</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/31/100231-1256.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/31/100231-1258.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/31/100231-1259.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/31/100231-1260.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/31/100231-1261.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/31/100231-1262.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/31/100231-1263.lg.jpg</image7>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
         <type>Horse Trailer</type>
         <stocknumber>10138</stocknumber>
         <year>2027</year>
@@ -460,7 +616,9 @@ Upright Dock Bumpers
 * Please contact our sales team to verify all options *
 We accept trades
 We offer delivery
-We offer financing</description>
+We offer financing
+5864 Highway 24
+Palmyra, MO 63461</description>
         <lqlength/>
         <loadtype>Stock</loadtype>
         <construction/>
@@ -656,7 +814,9 @@ Please contact our sales team to verify all options
 We accept trades
 We offer delivery
 We offer financing and lease to own programs
-(573) 869-0231</description>
+(573) 869-0231
+5864 Highway 24
+Palmyra, MO 63461</description>
         <lqlength/>
         <loadtype>Stock</loadtype>
         <construction/>
@@ -780,6 +940,59 @@ We offer financing and lease to own programs
           <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100194-1159.lg.jpg</image5>
           <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100194-1160.lg.jpg</image6>
           <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/94/100194-1161.lg.jpg</image7>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
+        <stocknumber>10112</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Featherlite Trailers</make>
+        <model>Stock Trailer</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>24</length>
+        <width>6.7</width>
+        <height>6.5</height>
+        <price>31999</price>
+        <slideouts/>
+        <description>2027 Featherlite 24'' Stock Trailer
+24' length
+6'7" wide
+6'6" tall
+(2) 7k torsion axles
+electric brakes
+(2) center gates with sliders
+interior lights
+exterior lights
+mill finish aluminum sheets on nose
+5864 Highway 24
+Palmyra, MO 63461</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction>Aluminum</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4FGB22420TC166865</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/93/100193-1253.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/93/100193-1244.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/93/100193-1245.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/93/100193-1246.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/93/100193-1247.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/93/100193-1248.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/93/100193-1249.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/93/100193-1250.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/93/100193-1251.lg.jpg</image9>
+          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/93/100193-1252.lg.jpg</image10>
         </images>
       </inventoryitem>
       <inventoryitem>
@@ -1376,7 +1589,7 @@ Remote Consignment</description>
         <height>6.5</height>
         <price>8199</price>
         <slideouts/>
-        <description>2026 Delta 12'' Livestock Bumper Pull
+        <description>2026 Delta 12' Livestock Bumper Pull
 12' Length
 6' Width
 6'6" Height
