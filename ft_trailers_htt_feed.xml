@@ -168,6 +168,77 @@ Palmyra, MO 63461</description>
       </inventoryitem>
       <inventoryitem>
         <type>Horse Trailer</type>
+        <stocknumber>10140C</stocknumber>
+        <year>2018</year>
+        <condition>Used</condition>
+        <make>Twister</make>
+        <model>Living Quarters</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses>5</horses>
+        <axles>2</axles>
+        <length>44</length>
+        <width>8</width>
+        <height>7.5</height>
+        <price>119999</price>
+        <slideouts/>
+        <description>2018 Twister 5 Horse Side Load 13.5 Outlaw Conversions
+44' length
+8' wide
+(2) 8k axles
+17.5" wheels
+5 Horse
+Side load
+Mangers
+Drops on the Front
+Drops/Sliders on rear
+Full Back Tack
+Insulated Horse Area
+13'6 Outlaw Conversions
+Shower
+Sink
+Toilet
+Closet
+6.0 Fridge/Freezer
+Sofa/Sleeper
+Recessed Cook Top
+Microwave
+Kitchen Sink
+3/4 Privacy Nose
+(1) 15 BTU A/C
+Furnace
+New pictures coming soon!
+5864 Highway 24
+Palmyra, MO 63461</description>
+        <lqlength>2018</lqlength>
+        <loadtype/>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>1S9GL442XJK933703</vin>
+        <livingquarters>true</livingquarters>
+        <midtack>false</midtack>
+        <manger>true</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/28/100228-1287.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/28/100228-1297.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/28/100228-1285.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/28/100228-1288.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/28/100228-1289.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/28/100228-1290.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/28/100228-1291.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/28/100228-1292.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/28/100228-1293.lg.jpg</image9>
+          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/28/100228-1294.lg.jpg</image10>
+          <image11>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/28/100228-1295.lg.jpg</image11>
+          <image12>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/28/100228-1296.lg.jpg</image12>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
         <stocknumber>10138</stocknumber>
         <year>2027</year>
         <condition>New</condition>
