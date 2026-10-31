@@ -208,6 +208,7 @@ Kitchen Sink
 3/4 Privacy Nose
 (1) 15 BTU A/C
 Furnace
+4.0 Onan Gas Generator
 New pictures coming soon!
 5864 Highway 24
 Palmyra, MO 63461</description>
@@ -1288,6 +1289,67 @@ Palmyra, MO 63461</description>
           <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1197.lg.jpg</image10>
           <image11>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1198.lg.jpg</image11>
           <image12>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/89/100189-1199.lg.jpg</image12>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Horse Trailer</type>
+        <stocknumber>10107</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Featherlite Trailers</make>
+        <model>Stock Combo</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>20</length>
+        <width>7.6</width>
+        <height>7</height>
+        <price>38299</price>
+        <slideouts/>
+        <description>2027 Featherlite 20' Stock Combo
+20' length
+7'6" wide
+7' tall
+(2) 7k torsion axles
+spare tire
+electric brakes
+interior lights
+exterior lights
+4' tack room
+(3) saddle racks
+blanket bars
+bridle hooks
+mill finish
+8'/8' compartments
+ON ORDER
+5864 Highway 24
+Palmyra, MO 63461</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4FGB12023TC166870</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/88/100188-1299.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/88/100188-1300.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/88/100188-1301.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/88/100188-1302.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/88/100188-1303.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/88/100188-1304.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/88/100188-1305.lg.jpg</image7>
+          <image8>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/88/100188-1307.lg.jpg</image8>
+          <image9>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/88/100188-1308.lg.jpg</image9>
+          <image10>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/88/100188-1309.lg.jpg</image10>
+          <image11>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/88/100188-1310.lg.jpg</image11>
+          <image12>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/88/100188-1311.lg.jpg</image12>
         </images>
       </inventoryitem>
       <inventoryitem>
