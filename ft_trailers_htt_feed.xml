@@ -69,55 +69,6 @@ Palmyra, MO 63461</description>
       </inventoryitem>
       <inventoryitem>
         <type>Stock Trailer</type>
-        <stocknumber>10139B</stocknumber>
-        <year>2016</year>
-        <condition>Used</condition>
-        <make>Cherokee</make>
-        <model>Livestock Trailer</model>
-        <status>Available</status>
-        <onorder>false</onorder>
-        <hitch>Gooseneck</hitch>
-        <horses/>
-        <axles>3</axles>
-        <length>32</length>
-        <width>7</width>
-        <height/>
-        <price>21500</price>
-        <slideouts/>
-        <description>2016 Cherokee 32' Livestock Trailer Livestock Trailer
-32' length
-7' wide
-(3) 7k axles
-Full Rear Gate with slider
-(2) Solid center gates
-Electric Brakes
-17.5 Wheels
-This trailer was just serviced and ready to go!
-5864 Highway 24
-Palmyra, MO 63461</description>
-        <lqlength/>
-        <loadtype>Stock</loadtype>
-        <construction/>
-        <emptyweight/>
-        <gtwr/>
-        <vin>5PRSG3228G0004309</vin>
-        <livingquarters>false</livingquarters>
-        <midtack>false</midtack>
-        <manger>false</manger>
-        <rearramp>false</rearramp>
-        <sideramp>false</sideramp>
-        <images>
-          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/32/100232-1266.lg.jpg</image1>
-          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/32/100232-1267.lg.jpg</image2>
-          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/32/100232-1268.lg.jpg</image3>
-          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/32/100232-1269.lg.jpg</image4>
-          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/32/100232-1270.lg.jpg</image5>
-          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/32/100232-1271.lg.jpg</image6>
-          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/32/100232-1272.lg.jpg</image7>
-        </images>
-      </inventoryitem>
-      <inventoryitem>
-        <type>Stock Trailer</type>
         <stocknumber>10139</stocknumber>
         <year>2027</year>
         <condition>New</condition>
