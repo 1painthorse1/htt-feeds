@@ -1,1 +1,184 @@
+name: Update Horse Pro Trailer Sales Feed
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Download Horse Pro feed with retry
+        env:
+          DATALINK_HORSE_PRO_URL: ${{ secrets.DATALINK_HORSE_PRO_URL }}
+        run: |
+          python - <<'PY'
+          from urllib.request import Request, urlopen
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          import os
+          import time
+
+          url = os.environ["DATALINK_HORSE_PRO_URL"]
+          published = Path("horse-pro-trailers.xml")
+          staged = Path("horse-pro-trailers.xml.tmp")
+
+          for attempt in range(1, 11):
+              print(f"Attempt {attempt} of 10...")
+
+              try:
+                  request = Request(
+                      url,
+                      headers={"User-Agent": "Mozilla/5.0"}
+                  )
+
+                  with urlopen(request, timeout=60) as response:
+                      data = response.read()
+
+                  root = ET.fromstring(data)
+
+                  if root.tag.lower() == "error":
+                      print("Datalink says:", (root.text or "").strip())
+
+                  elif root.find(".//dealerid") is None:
+                      print("Export incomplete: no dealer ID present.")
+
+                  elif (root.findtext(".//dealerid") or "").strip() != "883":
+                      found = (root.findtext(".//dealerid") or "").strip()
+                      print(
+                          "Export incomplete: dealer 883 absent "
+                          f"(found {found!r})."
+                      )
+
+                  elif root.find(".//inventoryitem") is None:
+                      print("Export incomplete: no inventory items present.")
+
+                  else:
+                      items = list(root.iter("inventoryitem"))
+
+                      print("Datalink dealer ID: 883")
+                      print("Inventory items:", len(items))
+
+                      staged.write_bytes(data)
+                      staged.replace(published)
+
+                      print("Complete Open Range payload received and staged.")
+                      break
+
+              except Exception as e:
+                  print("Download attempt failed:", e)
+
+              if attempt < 10:
+                  print("Waiting 30 seconds before trying again...")
+                  time.sleep(30)
+
+          else:
+              raise SystemExit(
+                  "ERROR: Datalink did not return a complete dealer 883 export "
+                  "after 10 attempts. Published XML left unchanged."
+              )
+          PY
+
+      - name: Add HTT location ID
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+
+          path = "horse-pro-trailers.xml"
+
+          tree = ET.parse(path)
+          root = tree.getroot()
+
+          dealerids = [
+              (elem.text or "").strip()
+              for elem in root.iter("dealerid")
+          ]
+
+          if "883" not in dealerids:
+              raise SystemExit("ERROR: Expected dealer ID 883 was not found.")
+
+          locations = list(root.iter("location"))
+
+          if not locations:
+              raise SystemExit("ERROR: No locations found in feed.")
+
+          changed = 0
+
+          for location in locations:
+              locationid = location.find("locationid")
+
+              if locationid is None:
+                  locationid = ET.SubElement(location, "locationid")
+
+              current = (locationid.text or "").strip()
+
+              if current != "31378":
+                  locationid.text = "31378"
+                  changed += 1
+
+          tree.write(
+              path,
+              encoding="utf-8",
+              xml_declaration=True
+          )
+
+          print("Dealer ID confirmed: 883")
+          print("Locations found:", len(locations))
+          print("Locations changed:", changed)
+          print("All Open Range locations assigned HTT location ID 31378")
+          PY
+          
+      - name: Validate XML and stock numbers
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          from collections import Counter
+
+          path = "horse-pro-trailers.xml"
+          tree = ET.parse(path)
+          root = tree.getroot()
+
+          print("XML validated successfully")
+
+          stocknumbers = []
+
+          for elem in root.iter("stocknumber"):
+              value = (elem.text or "").strip()
+              if value:
+                  stocknumbers.append(value)
+
+          counts = Counter(stocknumbers)
+          duplicates = [x for x, count in counts.items() if count > 1]
+
+          print("Stock numbers found:", len(stocknumbers))
+          print("Unique stock numbers:", len(counts))
+
+          if duplicates:
+              print("WARNING - duplicate stock numbers:")
+              for x in duplicates:
+                  print(x)
+          else:
+              print("No duplicate stock numbers found.")
+          PY
+
+      - name: Save updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add horse-pro-trailers.xml
+
+          if git diff --cached --quiet; then
+            echo "Feed has not changed."
+          else
+            git commit -m "Update Open Range Trailer Sales feed"
+            git push
+          fi
