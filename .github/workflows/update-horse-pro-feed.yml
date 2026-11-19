@@ -179,6 +179,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Feed has not changed."
           else
-            git commit -m "Update Open Range Trailer Sales feed"
-            git push
+            git commit -m "Update Horse Pro Trailer Sales feed"
+            git pull --rebase origin main
+            git push origin main
           fi
