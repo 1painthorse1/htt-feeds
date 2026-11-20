@@ -12,6 +12,56 @@
       <locationzip>63461</locationzip>
       <inventoryitem>
         <type>Stock Trailer</type>
+        <stocknumber>10146</stocknumber>
+        <year>2024</year>
+        <condition>New</condition>
+        <make>Eby Trailers</make>
+        <model>Maverick</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>24</length>
+        <width>7</width>
+        <height>7</height>
+        <price>33500</price>
+        <slideouts/>
+        <description>2024 Eby 24' Maverick Punch Panel Livestock Trailer
+24' length
+7' wide
+7'1 height
+(2) 7k axles
+16" Steel Wheels
+(2) Center Gates
+Full Swing w/ 1/2 Slider on Rear Gate
+Punchside
+Calf Gate
+Camlock on rear
+Escape Door Curbside
+This trailer is BRAND NEW! Get 2024 pricing for a brand new unit!
+5864 Highway 24
+Palmyra, MO 63461</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction>Steel</construction>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4A2LG2423R3009417</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/37/100237-1318.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/37/100237-1319.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/37/100237-1316.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/37/100237-1320.lg.jpg</image4>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
         <stocknumber>10142</stocknumber>
         <year>2027</year>
         <condition>New</condition>
