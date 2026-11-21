@@ -12,6 +12,70 @@
       <locationzip>63461</locationzip>
       <inventoryitem>
         <type>Stock Trailer</type>
+        <stocknumber>10147</stocknumber>
+        <year>2027</year>
+        <condition>New</condition>
+        <make>Eby Trailers</make>
+        <model>Maverick</model>
+        <status>Available</status>
+        <onorder>false</onorder>
+        <hitch>Gooseneck</hitch>
+        <horses/>
+        <axles>2</axles>
+        <length>24</length>
+        <width>6.92</width>
+        <height>6.5</height>
+        <price>33799</price>
+        <slideouts/>
+        <description>2027 Eby 24' Maverick Livestock Trailer
+24' length
+6'11 width
+6'7 inside height
+(2) 7k axles w/ electric brakes
+(4) Alloy Wheels
+14 ply tire/Load Range G
+Spare tire mounted
+.115 Ridged Diamond Plate Floor
+Single Manual jack
+Full Swing tailgate with Sliding Pass through door
+(1) Full Swing w/ Sliding Pass Through Center Gates
+(1) Full Swing
+33" Wide Hinged Door, Curbside
+Upright Dock Bumpers
+(3) Lights on each side of roof rail
+(1) Lights on each side of bottom rail
+(2) Lights inside
+(4) STTR Lights, One Each Side
+(2) LED Load Lights
+* Please contact our sales team to verify all options *
+We accept trades
+We offer delivery
+We offer financing
+5864 Highway 24
+Palmyra, MO 63461</description>
+        <lqlength/>
+        <loadtype>Stock</loadtype>
+        <construction/>
+        <emptyweight/>
+        <gtwr/>
+        <vin>4A2LG2420V3015590</vin>
+        <livingquarters>false</livingquarters>
+        <midtack>false</midtack>
+        <manger>false</manger>
+        <rearramp>false</rearramp>
+        <sideramp>false</sideramp>
+        <images>
+          <image1>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/38/100238-1325.lg.jpg</image1>
+          <image2>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/38/100238-1329.lg.jpg</image2>
+          <image3>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/38/100238-1330.lg.jpg</image3>
+          <image4>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/38/100238-1331.lg.jpg</image4>
+          <image5>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/38/100238-1332.lg.jpg</image5>
+          <image6>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/38/100238-1333.lg.jpg</image6>
+          <image7>https://trailerops-dealer-storage.s3.us-west-1.amazonaws.com/fttrailers/inventory/photos/38/100238-1334.lg.jpg</image7>
+        </images>
+      </inventoryitem>
+      <inventoryitem>
+        <type>Stock Trailer</type>
         <stocknumber>10146</stocknumber>
         <year>2024</year>
         <condition>New</condition>
@@ -808,7 +872,7 @@ Palmyra, MO 63461</description>
         <height>6.5</height>
         <price>36499</price>
         <slideouts/>
-        <description>2027 Eby 24' Maverick Livestock Trailer
+        <description>2027 Eby 24'' Maverick Livestock Trailer
 24' length
 6'11 width
 6'7 inside height
@@ -832,7 +896,9 @@ Please contact our sales team to verify all options
 We accept trades
 We offer delivery
 We offer financing and lease to own programs
-(573) 869-0231</description>
+(573) 869-0231
+5864 Highway 24
+Palmyra, MO 63461</description>
         <lqlength/>
         <loadtype>Stock</loadtype>
         <construction/>
